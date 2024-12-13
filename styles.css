@@ -9,6 +9,26 @@
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     color: #333;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Add transition */
+
+  }
+  body.dark-mode {
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Add transition */
+
+
+  }
+  
+  #theme-toggle {
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
   /* Header */
@@ -30,7 +50,6 @@
     text-decoration: none;
     margin: 0 16px;
    
-    
   }
   
   /* Hero Section */
@@ -87,7 +106,18 @@
   .info-section {
     text-align: center;
     padding: 80px 8px;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Add transition */
+
   }
+  .info-section.dark-mode {
+    
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Add transition */
+
+
+  }
+  
   
   .info-cards {
     display: flex;
@@ -118,7 +148,15 @@
     font-style: italic;
     display: flex;
     justify-content: center;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Add transition */
+
     
+  }
+  .quote-section.dark-mode {
+    background-color: #171717;
+    color: white;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Add transition */
+
   }
   
   blockquote footer {
@@ -149,9 +187,8 @@
     margin-bottom: 80px;
     margin-right: 160px;
     margin-left: 160px;
-
-
   }
+  
   .cta-text {
     margin-right: 100px;
     margin-left: 100px;
